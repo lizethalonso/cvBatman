@@ -1,0 +1,56 @@
+$color1: #E0E0E0;
+$color2: #c0c0c0;
+$color3: #295E87;
+$color4: #183956;
+$color5: white;
+
+header {
+    background-color: $color1;
+    img {
+        margin: auto;
+        display: block;
+    }
+    h1 {
+        letter-spacing: 0.25cm;
+        background-color:$color2;
+        color: $color3;
+        height: 45px;
+        align-items: center; /*Centrar verticalmente, se debe poner display flex para que funcione*/
+        display: flex;
+        justify-content: center;
+    }
+}
+
+h3 {
+    letter-spacing: 0.25cm;
+    background-color:$color2;
+    color: $color3;
+    height: 26px;
+    align-items: center; /*Centrar verticalmente, se debe poner display flex para que funcione*/
+    display: flex;
+    justify-content: left;
+}
+
+.personal1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #183956;
+    color: white;
+    font-weight: bold;
+    .íconos {
+        width: 15px;
+        height: 15px;
+        margin-left: 20px;
+    }
+ }
